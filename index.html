@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>LAYOUT | GROUPING</title>
+    <style>
+      body {
+        background-color: #234;
+      }
+      .left,
+      .right {
+        width: 300px;
+        height: 600px;
+        display: inline-block;
+        vertical-align: top;
+      }
+      .left {
+        background-image: url(https://img.freepik.com/free-photo/male-with-backpack-standing-path-tall-thick-trees-looking-light_181624-16490.jpg?size=626&ext=jpg&uid=R37065079&ga=GA1.2.163638147.1689063396&semt=sph);
+        margin-right: 6px;
+      }
+      .top,
+      .bottom {
+        background-color: #777;
+        height: 295px;
+      }
+      .top {
+        margin-bottom: 10px;
+        background-image: url(https://img.freepik.com/free-photo/alley-among-trees-fall_1161-137.jpg?size=626&ext=jpg&uid=R37065079&ga=GA1.1.163638147.1689063396&semt=sph);
+        background-size: cover;
+      }
+      .bottom {
+        background-image: url(https://img.freepik.com/free-photo/natures-reflection-water-wood-material-generative-ai_188544-7927.jpg?size=626&ext=jpg&uid=R37065079&ga=GA1.2.163638147.1689063396&semt=sph);
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="left"></div>
+    <div class="right">
+      <div class="top">2</div>
+      <div class="bottom">3</div>
+    </div>
+  </body>
+</html>

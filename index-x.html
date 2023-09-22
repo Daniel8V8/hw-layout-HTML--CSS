@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>LAYOUT | GROUPING</title>
+    <style>
+      body {
+        background-color: #234;
+      }
+      .top {
+        background-image: url(https://www.zandxvillas.com/wp-content/uploads/2018/11/600x300px-LP-banner_A.jpg);
+      }
+
+      .top,
+      .bottom {
+        width: 600px;
+        height: 300px;
+        margin-top: 10px;
+      }
+      .left,
+      .right {
+        height: inherit;
+        width: 295px;
+        display: inline-block;
+      }
+
+      .left {
+        margin-right: 6px;
+        background-image: url(https://img.freepik.com/free-photo/sportsman-sitting-skatepark-long-shot_23-2148288480.jpg?size=626&ext=jpg&uid=R37065079&ga=GA1.2.163638147.1689063396&semt=sph);
+        background-size: cover;
+      }
+      .right {
+        background-image: url(https://img.freepik.com/free-photo/male-cyclist-riding-bicycle-mountains_651396-2284.jpg?size=626&ext=jpg&uid=R37065079&ga=GA1.1.163638147.1689063396&semt=sph);
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top"></div>
+    <div class="bottom">
+      <div class="left"></div>
+      <div class="right"></div>
+    </div>
+  </body>
+</html>
